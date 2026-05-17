@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL:
+    "https://gigflow-smart-leads-dashboard-msor.onrender.com/api",
 });
 
 export default api;
