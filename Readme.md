@@ -4,8 +4,8 @@ A full-stack CRM dashboard application built for the ServiceHive Full Stack Deve
 
 ## Features
 
-- User Authentication (JWT)
-- Register/Login
+- JWT Authentication
+- User Registration & Login
 - Protected Routes
 - Lead Management CRUD
 - Search Leads
@@ -14,6 +14,9 @@ A full-stack CRM dashboard application built for the ServiceHive Full Stack Deve
 - CSV Export
 - Zustand State Management
 - Responsive UI
+- Error Handling
+- Form Validation
+- Loading & Empty States
 
 ## Tech Stack
 
@@ -59,10 +62,31 @@ Create `.env` inside server:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://niharikapareek200_db_user:x3NiK2ztdFk7EV4d@cluster0.qbydmou.mongodb.net/?appName=Cluster0
+MONGO_URI=mongodb+srv://niharikapareek200_db_user:<db_password>@cluster0.qbydmou.mongodb.net/?appName=Cluster0
 JWT_SECRET=niharika_jwt_secret
 ```
+# Docker Support
 
+Docker configuration files are included.
+
+Run using:
+
+```bash
+docker-compose up --build
+```
+
+---
+# Docker Support
+
+Docker configuration files are included.
+
+Run using:
+
+```bash
+docker-compose up --build
+```
+
+---
 ## Live Links
 
 Frontend:  
